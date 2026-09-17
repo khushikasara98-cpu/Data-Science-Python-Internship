@@ -34,3 +34,6 @@ Created 4 core Pivot Tables to feed visual elements, ensuring strict reconciliat
 - **Visual Elements:** Doughnut Chart (Category), Horizontal Bar Chart (Department), Line Chart with Markers (Yearly Trend), Dynamic KPI Card.
 - **Interactivity:** Integrated **Region** and **Year** Slicers connected via `Report Connections` to update all charts and metrics simultaneously.
 - **UI Cleanliness:** Hidden Field Buttons, custom color palettes, gridlines removed, and title banners added.
+
+![Dashboard](Screenshot%202026-09-05%20140058.png)
+
