@@ -25,7 +25,7 @@ GROUP BY customer_name
 ORDER BY total_spent DESC
 LIMIT 5;
 ```
-![Top Customers](Screenshot 2026-09-16 140544.png)
+![Top Customers](Screenshot%202026-09-16%20140544.png)
 
 ### 2. Average Order Value (AOV)
 Calculates the overall average spending per order across the dataset.
@@ -34,7 +34,7 @@ SELECT
     ROUND(AVG(total_price), 2) AS average_order_value
 FROM sales_data;
 ```
-![Average Order Value](Screenshot 2026-09-16 140604.png)
+![Average Order Value](Screenshot%202026-09-16%20140604.png)
 
 ### 3. Category & Sub-Category Performance
 Analyzes sales performance and units sold per category and sub-category.
@@ -48,7 +48,7 @@ FROM sales_data
 GROUP BY category, sub_category
 ORDER BY total_revenue DESC;
 ```
-![Category & Sub-Category Performance](Screenshot 2026-09-16 140649.png)
+![Category & Sub-Category Performance](Screenshot%202026-09-16%20140649.png)
 
 ### 4. Regional Sales Breakdown
 Evaluates total revenue and order volume generated across different regions.
@@ -61,4 +61,4 @@ FROM sales_data
 GROUP BY region
 ORDER BY regional_revenue DESC;
 ```
-![Regional Sales Breakdown](Screenshot 2026-09-16 140718.png)
+![Regional Sales Breakdown](Screenshot%202026-09-16%20140718.png)
