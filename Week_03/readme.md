@@ -24,8 +24,9 @@ This directory contains the Python implementation for data loading, data cleanin
    - Built a **Line Plot** using Matplotlib to track calorie burn trends.
    - Built a **Scatter Plot** using Seaborn to analyze the relationship between Pulse Rate and Calories Burned.
 
+![Data Visualization](Screenshot%202026-09-19%20142629.png)
+
 ## 🚀 Environment & Libraries Used
 - **Language:** Python 3.x
 - **Environment:** VS Code (Jupyter Notebooks)
 - **Libraries:** Pandas, Matplotlib, Seaborn
--
