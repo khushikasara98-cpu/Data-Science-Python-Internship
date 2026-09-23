@@ -43,16 +43,23 @@ df['Discount Band'] = df['Discount Band'].fillna('None')
 print(df[['Units Sold', 'Sales', 'COGS', 'Profit']].describe())
 ```
 
+---
+
 ## 📈 Power BI Interactive Dashboard
 The dashboard includes:
-- Header Banner: Modern dark navy layout with clear typography.
-- KPI Cards: Units Sold, Total Sales, Total Profit, and COGS.
-- Line Chart: Sales & Profit Trend (2013 vs 2014 growth).
-- Clustered Bar Chart: Country-wise Sales breakdown (US as market leader).
-Donut Chart: Segment Profitability (Government segment driving highest revenue).
-Stacked Column Chart: Top Performing Products (Paseo as top seller).
-Interactive Slicers: Dynamic filtering by Year (2013/2014) and Segment.
-🚀 Key Strategic Recommendations
-Optimize COGS: COGS accounts for ~$102M out of $118.73M revenue; reducing production costs will directly improve net profit margins.
-Focus on Government Contracts: The Government segment contributes over 65% of profits.
-Expand High-Performing Product Lines: Scale marketing for Paseo across lower-performing geographies like Mexico.
+ - **Header Banner:** Modern dark navy layout with clear typography.
+ - **KPI Cards:** Units Sold, Total Sales, Total Profit, and COGS.
+ - **Line Chart:** Sales & Profit Trend (2013 vs 2014 growth).
+ - **Clustered Bar Chart:** Country-wise Sales breakdown (US as market leader).
+ - **Donut Chart:** Segment Profitability (Government segment driving highest revenue).
+ - **Stacked Column Chart:** Top Performing Products (`Paseo` as top seller).
+ - **Interactive Slicers:** Dynamic filtering by Year (2013/2014) and Segment.
+
+![Power BI Interactive Dashboard](Screenshot%202026-09-22%20171242.png)
+
+---
+
+## 🚀 Key Strategic Recommendations
+1. **Optimize COGS:** COGS accounts for ~$102M out of $118.73M revenue; reducing production costs will directly improve net profit margins.
+2. **Focus on Government Contracts:** The Government segment contributes over 65% of profits.
+3. **Expand High-Performing Product Lines:** Scale marketing for `Paseo` across lower-performing geographies like Mexico.
